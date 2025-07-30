@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: email-generator-api
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
