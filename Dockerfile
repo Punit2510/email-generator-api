@@ -14,4 +14,4 @@ RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
 # Run the application
-CMD ["java", "-jar", "target/email-writer-sb-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/email-writer-db-0.0.1-SNAPSHOT.jar"]
